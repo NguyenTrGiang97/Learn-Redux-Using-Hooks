@@ -1,0 +1,13 @@
+ul.hobby-list {
+
+}
+
+ul.hobby-list > li {
+    transition: all .6 ease-in-out;
+    cursor: pointer;
+}
+
+ul.hobby-list > li.actived {
+    color: orangered;
+    background-color: lightgrey;
+}
